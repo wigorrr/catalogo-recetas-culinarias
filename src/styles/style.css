@@ -1,0 +1,144 @@
+/*-------------------- NAVIGATION ---------------------*/
+.navbar-brand img {
+  width: 60%;
+  margin: 0 auto;
+}
+.navbar-brand {
+  text-align: center;
+}
+.NavButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+.Yellow {
+  margin-right: 35px;
+}
+
+/*-------------------- BANNER ---------------------*/
+.Banner {
+  background-color: #a2dce9;
+  max-width: 1340px;
+  width: 100%;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*-------------------- MAIN ---------------------*/
+.container-main {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.container-main .row {
+  margin: 0;
+}
+.clean-padding {
+  padding: 0;
+}
+.tags a {
+  margin-right: 16px;
+}
+.tags {
+  margin-bottom: 40px;
+}
+/*-------------------- ASIDE ---------------------*/
+aside {
+  background-color: #a2dce9;
+  height: 99%;
+  margin: 0 auto;
+  width: 99%;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  aside {
+    display: inline-block;
+  }
+}
+/*-------------------- ARTICLES ---------------------*/
+.Article-card {
+  list-style-type: none;
+  max-width: 350px;
+  width: 100%;
+  display: inline-block;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1240px) {
+  .Article-card {
+    width: 33%;
+    padding: 0 2%;
+  }
+}
+
+.Article-card h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Article-card figure {
+  width: 100%;
+  height: 60%;
+  max-height: 260px;
+  overflow: hidden;
+}
+
+.Article-card img {
+  width: 100%;
+}
+.Layout a {
+  color: black;
+}
+/*-------------------- FOOTER ---------------------*/
+
+.svgbadges img {
+  width: 120px;
+}
+.footer-header__redes {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.footer-sitio__links {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.footer-sitio__links a {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.footer-header__app {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.footer-sitio__captcha {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.footer-header__logo {
+  text-align: center;
+}
+.footer-header__logo img {
+  width: 250px;
+  margin-bottom: 16px;
+}
+.private {
+  margin-top: 16px;
+}
+/* TABLET and DESKTOP */
+@media (min-width: 769px) {
+  .footer-header__redes {
+    text-align: left;
+  }
+  .footer-header__logo {
+    text-align: center;
+  }
+  .footer-sitio__links {
+    text-align: left;
+  }
+  .footer-header__app {
+    text-align: right;
+  }
+  .footer-sitio__captcha {
+    text-align: right;
+  }
+}
